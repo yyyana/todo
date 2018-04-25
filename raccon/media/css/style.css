@@ -1,0 +1,333 @@
+*,body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    background-image: radial-gradient(ellipse farthest-side at center center,rgb(1, 97, 171) 0%,rgb(0, 102, 176) 16.2%,rgb(2, 48, 97) 76%,rgb(2, 29, 72) 100%);
+    background-image: -ms-radial-gradient(center center,ellipse farthest-side,rgb(1, 97, 171) 0%,rgb(0, 102, 176) 16.2%,rgb(2, 48, 97) 76%,rgb(2, 29, 72) 100%);
+}
+header{
+    padding: 15px 15px 0 15px;
+    background-color: #ea4e1b;
+    width: 100%;
+    height: 85px;
+    position: relative;
+}
+.Logo{
+    width: 55px;
+}
+.LogoHref{
+    position: absolute;
+    right: 30px;
+}
+.Auth{
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+.AuthBtn{
+    font-family: "Arial";
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 55px;
+    color: #fdf1f6;
+    text-transform: uppercase;
+    display: inline-block;
+    height:55px;
+    width: 180px;
+    box-shadow: 0 6px 10px black;
+    margin-right: 5px;
+    background-color: rgb(2, 48, 97);
+}
+.Auth_form{
+    height: 30px;
+    font-size: 25px;
+    margin-left: 25px;
+}
+.Auth_Label{
+    font-size: 25px;
+    font-family: "Arial";
+    color:black;
+}
+.Auth_btnForm{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 150px;
+    box-shadow: 0 0 10px black;
+    background-color:#e6007f;
+    border: none;
+    cursor: pointer;
+}
+.Cont{
+    padding-top: 50px;
+}
+h1{
+    font-family: "MV Boli";
+    font-style: italic;
+    text-align: center;
+    line-height: 80px;
+    color: #fdf1f6;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.MainMenu,.MainHref{
+    font-family: "Arial";
+    text-decoration: none;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 90px;
+    color: #fdf1f6;
+    text-transform: uppercase;
+    display: block;
+    height:100px;
+    box-shadow: 0 6px 10px black;
+}
+.MainMenu{
+    width: 70%;
+}
+.MainHref{
+    width: 40%;
+    background-color: #81358f;
+}
+.MainMenuLi{
+    width: 33.33%;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 -5px 10px black;
+}
+.MainMenuUl{
+    display: flex;
+}
+.MainMenu.One{
+    background-color: #2daae2;
+}
+.MainMenu.Two{
+    background-color: #93c120;
+}
+.MainMenuLi.One{
+    border-top: 10px solid #2daae2;
+}
+.MainMenuLi.Two{
+    border-top: 10px solid #93c120;
+}
+.ContForMainHref{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    position: absolute;
+    bottom: 40%;
+    border-top: 10px solid #81358f;
+}
+.MainMenu.One.DeactiveForm,.MainMenu.Two.DeactiveForm, .MainMenu.Three.DeactiveForm{
+    font-size: 40px;
+    line-height: 50px;
+    height:50px;
+}
+.MainMenu.One.Deactive,.MainMenu.Two.Deactive, .MainMenu.Three.Deactive{
+    background-color: dimgrey;
+    opacity: 0.4;
+    font-size: 40px;
+    line-height: 50px;
+    height:50px;
+}
+.MainMenu.DeactiveWidth{
+    font-size: 40px;
+    line-height: 50px;
+    height:50px;
+}
+.MainMenuLi.One.Deactive, .MainMenuLi.Two.Deactive, .MainMenuLi.Three.Deactive{
+    border-top: 10px solid dimgrey;
+    opacity: 0.4;
+}
+.ContForMainHref.Deactive, .MainHref.Deactive{
+    opacity: 0.6;
+    font-size: 40px;
+    line-height: 50px;
+    height:50px;
+}
+.ContForMainHref.Deactive.Clip{
+    width: 70px;
+}
+.MainHref.Deactive.Clip{
+    font-size: 20px;
+    width: 60px;
+}
+.ContForMainHref.Deactive{
+    bottom: 20%;
+    position: fixed;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.ContForForm{
+    width: 90%;
+    min-height: 200px;
+    margin:20px 0 10px 10px;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+}
+.FormName{
+    width: 250px;
+    height: 30px;
+    display: inline-block;
+    background-color: #93c120;
+    font-size: 20px;
+    margin: 5px;
+}
+.AboutImage{
+    width: 300px;
+    min-height: 80px;
+    background-color: #93c120;
+    font-size: 20px;
+    display: inline-block;
+    margin: 5px;
+}
+.SubmitAddImage{
+    width: 115px;
+    height: 50px;
+    background-color:rgba(230, 0, 127, 1);
+    border-color:rgba(230, 0, 127, 1);
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 0 10px black;
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    color: #fdf1f6;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.FileAddImage{
+    height: 30px;
+    display: inline-block;
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    color: #fdf1f6;
+    text-transform: uppercase;
+    margin: 5px;
+    cursor: pointer;
+}
+.ContListImages{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ListImages{
+    min-height: 100px;
+    margin:5px auto;
+    box-shadow: 0 0 10px black;
+    padding: 5px;
+    display: flex;
+}
+.ListImagesItemImage{
+    width: 80px;
+    margin: 10px;
+}
+.ListImagesItemName{
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+.ListImagesItemHref{
+    padding-top: 65px;
+    margin-left: 10px;
+}
+.ImageView{
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(224, 214, 217, 0.4);
+    box-shadow: 0 0 10px black;
+    margin-bottom: 10px;
+}
+.ListImagesItemAbout{
+    min-height: 100px;
+    max-width: 60%;
+    margin: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    text-align: justify;
+}
+.ListImagesItemImage.About{
+    width: 150px;
+}
+.Like{
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-image: url("/media/images_for_face/Likes.png");
+    background-size: 40px 200%;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: linear all 0.5s;
+}
+.Like.active{
+    background-position: 0 0;
+}
+.LikeHref{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.Image{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.ImageViewItem{
+    width: 200px;
+    height: 250px;
+    background-color: rgba(224, 214, 217, 0.4);
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+    position: relative;
+}
+h2{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+.Pagination{
+    margin-top: 10px;
+    min-height: 35px;
+    display: flex;
+    justify-content: center;
+}
+.page{
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: orangered;
+    transition: all linear 0.5s;
+}
+.page:hover{
+    font-size: 30px;
+
+}
+.errorsAuth{
+    background-color:rgba(230, 0, 127, 1);
+}
+.RegisterOnly{
+    font-family: "MV Boli";
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    color: #fdf1f6;
+    text-transform: uppercase;
+}

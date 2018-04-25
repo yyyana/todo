@@ -20,7 +20,7 @@ $ROUTES=[
     "/auth/logout"  =>["ctrl"=>"auth", "action"=>"logout"]
 ];
 include DOCROOT."auth.php";
-include  DOCROOT."databases.php";
+include DOCROOT . "databases.json";
 
 function redirect($page){
     header("Location:{$page}");

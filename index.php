@@ -13,20 +13,20 @@ $ROUTES=[
     "/get"        =>["ctrl"=>"main",   "action"=>"about"],
     "/remove"        =>["ctrl"=>"main",   "action"=>"remove"],
 ];
-include  DOCROOT."databases.php";
+
 
 function redirect($page){
     header("Location:{$page}");
 }
 
-function load_model($model_name){
-    include DOCROOT."model/{$model_name}.php";
+function load_model(){
+    include DOCROOT."images.json";
 }
 
 function load_view($page, $data=[]){
     extract($data);
     $file = VIEW_PATH."view_{$page}.php";
-    include DOCROOT."template.php";
+    include DOCROOT."$file";
 }
 
 function route($page){
